@@ -35,7 +35,7 @@ function getUsers() {
   }
   return output;
 }
-function findUser (lastName, gender){
+function findUser(lastName, gender){
   try {
     var user = users.find(x => x.lastName === lastName && x.gender === gender);
     var iFindUser = `${user.firstName} ${user.lastName} is ${user.age}, ${user.gender}`;
@@ -45,9 +45,10 @@ function findUser (lastName, gender){
      
       console.log(error);
       console.log("Cannot read property 'firstName' of undefined");
+      return error;
   }
 }
 
 getUsers();
 findUser("Doeeee", "male");
-module.exports = getUsers;
+module.exports = findUser;
