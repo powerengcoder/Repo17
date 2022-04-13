@@ -1,0 +1,130 @@
+#wraper {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+body{
+    font-family: sans-serif;
+    font-weight: 200;
+    background: #181818;
+    color: white;
+    text-align: center;
+    
+}
+
+#left{
+    flex: 1%;
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+
+#right {
+    flex: 1%;
+    float: right;
+    width: 60%;
+
+}
+.logo{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.logo img{
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    width: 250px;
+}
+#wrapper form{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  padding: 20px;
+}
+#wrapper form .text-input{
+    display: block;
+    background-color: #181818;
+    border: 1px solid rgba(192, 192, 192, 0.726);
+    border-style: solid;
+    border-width: 1px;
+    width:  400px;
+    height: 20px;
+    padding: 2%;
+    margin: 10px 0 18px 0;
+}
+
+#wrapper form .primary-btn{
+    display: block;
+    background: rgb(0, 102, 255);
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    height: 40px;
+    width: 421px;
+    border: none;
+    outline: none;
+    margin-left: 0%;
+}
+#signin #links a{
+    display: block;
+    text-decoration: none;
+    padding: 2%;
+    font-size: 14px;
+    font-weight: lighter;
+    color: rgb(0, 102, 255);
+}
+
+.bar{
+    width: 421px;
+    text-align: center;
+    margin-left: 90px;
+    height: 0%;
+    border: 1px solid rgb(192, 192, 192, 0.726);
+    margin-bottom: 25px;
+
+}
+.secondary-btn{
+    display: block;;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    height: 25px;
+    width: 421px;
+    border: none;
+    padding-top: 1.5%;
+    margin-left: 15%;
+    background-color: rgb(70, 70, 70);
+    font-size: 15px;
+    text-decoration: none;
+    opacity: 1;
+
+}
+
+#main-footer{
+   font-size: 10px;
+   margin-top: 12%;
+   color: rgb(192, 192, 192, 0.726);
+}
+
+#main-footer a{
+    color: rgb(192, 192, 192, 0.726);
+}
+
+#showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://image.ibb.co/cO9Lxq/login-bg.jpg') no-repeat center
+      center / cover;
+    height: 100vh;
+    text-align: center;
+  }
+
+  .showcase-text{
+      font-family:sans-serif;
+      font-size: 250%;
+      font-weight:lighter
+  }
